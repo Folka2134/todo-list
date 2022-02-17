@@ -25,7 +25,8 @@ export const GlobalProvider = ({ children }) => {
   return (
     <GlobalContext.Provider
       value={{
-        todos: this.state
+        todos: this.state,
+        deleteTodo
       }}
     >
       { children }
