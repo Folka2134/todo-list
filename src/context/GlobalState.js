@@ -17,7 +17,7 @@ export const GlobalProvider = ({ children }) => {
 
   function deleteTodo(id) {
     dispatch({
-      action: 'DELETE_TODO',
+      type: 'DELETE_TODO',
       payload: id
     })
   }
